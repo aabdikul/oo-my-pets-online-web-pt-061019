@@ -1,11 +1,12 @@
 class Owner
 
-  attr_accessor :owner
+  attr_accessor :owner, :name
 
   @@all = []
 
   def initialize(owner,name)
     @owner = owner
+    @name = name
     @@all << self
   end
 
