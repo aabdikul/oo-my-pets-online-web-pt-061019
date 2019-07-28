@@ -10,8 +10,6 @@ class Owner
     @name = name
   end
 
-  def species(s)
-
   def self.all
     @@all
   end
