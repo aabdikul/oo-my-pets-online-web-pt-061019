@@ -45,5 +45,5 @@ class Owner
   def buy_dog(dog_name)
     dog = Dog.new(dog_name,self) #self refers to the owner, which in this case is the class itself since we're coding in the Owner class
   end
-  
+
 end
