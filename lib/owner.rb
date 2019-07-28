@@ -47,7 +47,9 @@ class Owner
   end
 
   def walk_dogs
-    Dog.mood = "happy"
+    self.dogs.collect do |object|
+      object.mood = "happy"
+    end
   end
 
 end
