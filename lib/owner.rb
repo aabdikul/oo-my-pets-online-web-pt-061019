@@ -21,4 +21,8 @@ class Owner
     @@all.clear
   end
 
+  def cats(cat)
+    return Cat.all
+  end
+
 end
