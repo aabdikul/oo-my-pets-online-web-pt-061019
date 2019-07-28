@@ -8,4 +8,8 @@ class Cat
     @cat = cat
   end
 
+  def self.all
+    @@all
+  end
+
 end
