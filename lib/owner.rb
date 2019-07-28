@@ -4,8 +4,9 @@ class Owner
 
   @@all = []
 
-  def initialize(name_input) #we're giving the owner a name while we're creating a new instance
-    @name = name_input #assigning my input into an attribute named @name -- each object then has an attribute called @name
+  def initialize(name_input, species = "human") #we're giving the owner a name while we're creating a new instance
+    @name = name_input
+    @species = species #assigning my input into an attribute named @name -- each object then has an attribute called @name
     @@all << self
   end
 
