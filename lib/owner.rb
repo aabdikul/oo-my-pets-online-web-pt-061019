@@ -4,9 +4,8 @@ class Owner
 
   @@all = []
 
-  def initialize(owner,name)
+  def initialize(owner)
     @owner = owner
-    @name = name
     @@all << self
   end
 
