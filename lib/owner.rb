@@ -1,7 +1,6 @@
 class Owner
 
   attr_accessor :owner
-  attr_writer :name
 
   @@all = []
 
