@@ -1,13 +1,12 @@
 class Cat
 
-  attr_accessor :owner, :cat, :name
+  attr_reader :name, :owner
 
   @@all = []
 
-  def initialize
-    @cat = cat
-    @name = name
-    @owner = owner
+  def initialize(name_input,owner_input)
+    @name = name_input
+    @owner = owner_input
   end
 
   def self.all
