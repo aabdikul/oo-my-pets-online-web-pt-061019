@@ -9,6 +9,7 @@ class Cat
     @name = name_input
     @owner = owner_input
     @mood = mood_input
+    @@all << self
   end
 
   def self.all
