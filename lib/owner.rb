@@ -58,4 +58,10 @@ class Owner
     end
   end
 
+  def sell_pets
+    self.dogs collect do |object|
+      object.mood = "nervous"
+    self.cats collect do |object|
+      object.mood = "nervous"
+
 end
