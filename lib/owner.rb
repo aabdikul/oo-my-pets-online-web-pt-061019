@@ -26,4 +26,10 @@ class Owner
     @@all.clear
   end
 
+  def cats
+    Cat.all.select do |object|
+      object.owner
+    end
+  end
+
 end
