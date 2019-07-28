@@ -1,9 +1,12 @@
 class Owner
 
-  attr_accessor :name
+  attr_accessor :owner
 
-  def initalize(name)
-    @name = name
+  def initialize(owner)
+    @owner = owner
   end
 
+  def self.all
+      
+  
 end
