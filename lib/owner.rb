@@ -1,6 +1,6 @@
 class Owner
 
-  attr_reader :name #this defines the attribute name
+  attr_reader :name, :species #this defines the attribute name
 
   @@all = []
 
