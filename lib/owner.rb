@@ -65,5 +65,6 @@ class Owner
     self.cats collect do |object|
       object.mood = "nervous"
     end
+  end
 
 end
