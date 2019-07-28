@@ -38,4 +38,8 @@ class Owner
     end
   end
 
+  def buy_cat(cat_name)
+    cat = Cat.new(cat_name,self) #self refers to the owner, which in this case is the class itself since we're coding in the Owner class
+  end
+
 end
