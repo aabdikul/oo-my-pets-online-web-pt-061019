@@ -4,7 +4,7 @@ class Owner
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name) #we're giving the owner a name while we're creating a new instance
     @name = name
     @@all << self
   end
