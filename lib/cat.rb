@@ -4,8 +4,10 @@ class Cat
 
   @@all = []
 
-  def initialize(cat)
-
+  def initialize
+    @cat = cat
+    @name = name
+    @owner = owner
   end
 
   def self.all
