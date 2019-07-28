@@ -4,7 +4,7 @@ class Cat
 
   @@all = []
 
-  def initialize(name_input,owner_input,mood_input)
+  def initialize(name_input,owner_input,mood_input="nervous")
     @name = name_input
     @owner = owner_input
     @mood = mood_input
