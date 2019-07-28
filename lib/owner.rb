@@ -7,6 +7,6 @@ class Owner
   end
 
   def self.all
-      
-  
+
+
 end
